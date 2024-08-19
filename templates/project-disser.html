@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta content="description" name="description">
+	<meta name="google" content="notranslate" />
+	<meta content="Mashup templates have been developed by Orson.io team" name="author">
+	<meta name="msapplication-tap-highlight" content="no">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../static/assets/apple-icon-180x180.png">
+	<link href="../static/assets/favicon.ico" rel="icon">
+
+	<title>Dissertation Project</title>
+
+	<!-- Custom CSS -->
+	<link href="../static/main.3f6952e4.css" rel="stylesheet">
+
+	<!-- Include Prism.js for syntax highlighting -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+	<!-- Include FontAwesome for icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="site-border-left"></div>
+	<div id="site-border-right"></div>
+	<div id="site-border-top"></div>
+	<div id="site-border-bottom"></div>
+
+	<header>
+		<nav class="navbar navbar-fixed-top navbar-default">
+			<div class="container">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="./index.html" title="">01 : Home</a></li>
+						<li><a href="./projects.html" title="">02 : Projects</a></li>
+						<li><a href="./about.html" title="">03 : About me</a></li>
+						<li><a href="./contact.html" title="">04 : Contact</a></li>
+						<li><a href="./components.html" title="">05 : Components</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+						<li><a href="./project-disser.html" title="" class="active">001 Dissertation</a></li>
+						<li><a href="./project-python.html" title="">002 Python</a></li>
+						<li><a href="./project-js.html" title="">003 JavaScript</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<!-- Top image, to be replaced later -->
+					<img src="../static/assets/images/dissertation.png" class="img-responsive" alt="">
+					<div class="card-container">
+						<div class="text-center">
+							<h1 class="h2">001 : Master's Dissertation Project</h1>
+							<br>
+							<a href="https://github.com/gabrielipcarvalho/dissertation" target="_blank">View Source Code
+								on GitHub</a>
+							<br><br>
+							<p class="justify-text">Transformer models, particularly the Generative Pre-trained
+								Transformer (GPT) series, have changed artificial intelligence, especially in natural
+								language processing (NLP). These models excel in generating human-like text,
+								understanding complex language contexts, and performing various language-related tasks
+								with accuracy. Having been trained on extensive datasets, they offer a cost-effective
+								alternative to custom AI solutions by reducing the need for additional computational
+								resources.</p>
+							<p class="justify-text">This research investigates the feasibility of repurposing
+								pre-trained GPT models for applications beyond their original design, using the domain
+								of financial predictive analytics as a test-bed. By fine-tuning these models, The study
+								aims to assess the extent to which their advanced language processing capabilities to
+								interpret and analyse data can successfully be used in a different context and predict
+								stock price movements.</p>
+							<p class="justify-text">The complexity of financial markets - characterised by non-linear
+								relationships, volatile trends, and vast amounts of data from diverse sources — offers a
+								perfect test-bed to research whether fine-tuned GPT models can overcome these
+								challenges, offering reliable financial predictions. The project's broader implications
+								include the potential repurposing of these models for other specialised fields, such as
+								legal analytics and healthcare diagnostics, thereby making advanced predictive analytics
+								more accessible to a wider range of organisations.<br><br><br><br><br></p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Section 2: System Architecture -->
+				<div class="col-xs-12 section-container-spacer">
+					<div class="card-container">
+						<div class="text-center">
+							<h2>System Architecture</h2>
+						</div>
+						<p class="justify-text">The system is built around a dynamic orchestration framework that
+							manages multiple GPT model instances, each with a specialised role in the financial
+							predictive analytics workflow. The architecture consists of several key components,
+							including Python programs, custom scripts, adaptors, and an orchestration program that
+							coordinates the entire process.</p>
+
+						<p class="justify-text"><strong>Data Collection and Organisation:</strong> Python programs
+							interface with external APIs to fetch news data and stock prices. Custom-made Python scripts
+							then organise this data, preparing it for further analysis.</p>
+
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="section-title">APIs Request files:</p>
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file1"
+										aria-expanded="false" aria-controls="file1"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/news_fetch/news_fetch.py">
+										<i class="fa fa-chevron-right"></i> news_fetch.py
+									</button>
+									<div id="file1" class="collapse">
+										<pre><code class="language-python" id="code-file1"></code></pre>
+									</div>
+								</div>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file2"
+										aria-expanded="false" aria-controls="file2"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/stock_fetch/stock_fetch.py">
+										<i class="fa fa-chevron-right"></i> stock_fetch.py
+									</button>
+									<div id="file2" class="collapse">
+										<pre><code class="language-python" id="code-file2"></code></pre>
+									</div>
+								</div>
+
+								<p class="section-title">Scripts for data organisation:</p>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file3"
+										aria-expanded="false" aria-controls="file3"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/scripts/news_merge_json_files.py">
+										<i class="fa fa-chevron-right"></i> news_merge_json_files.py
+									</button>
+									<div id="file3" class="collapse">
+										<pre><code class="language-python" id="code-file3"></code></pre>
+									</div>
+								</div>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file4"
+										aria-expanded="false" aria-controls="file4"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/scripts/news_sort_json.py">
+										<i class="fa fa-chevron-right"></i> news_sort_json.py
+									</button>
+									<div id="file4" class="collapse">
+										<pre><code class="language-python" id="code-file4"></code></pre>
+									</div>
+								</div>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file5"
+										aria-expanded="false" aria-controls="file5"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/scripts/stock_organise_series.py">
+										<i class="fa fa-chevron-right"></i> stock_organise_series.py
+									</button>
+									<div id="file5" class="collapse">
+										<pre><code class="language-python" id="code-file5"></code></pre>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<p class="justify-text"><strong>Planner:</strong> This program iterates over the data, compiling
+							the information into a structured plan. It functions as a scheduler for the orchestration
+							program, coordinating which data should be fed to the adaptors during each iteration. Like a
+							music sheet for the orchestration program, guiding the sequence and timing of data inputs
+							across the system.</p>
+
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="section-title">Planner files:</p>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file6"
+										aria-expanded="false" aria-controls="file6"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/planner/index.js">
+										<i class="fa fa-chevron-right"></i> index.js
+									</button>
+									<div id="file6" class="collapse">
+										<pre><code class="language-javascript" id="code-file6"></code></pre>
+									</div>
+								</div>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file7"
+										aria-expanded="false" aria-controls="file7"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/planner/execute.js">
+										<i class="fa fa-chevron-right"></i> execute.js
+									</button>
+									<div id="file7" class="collapse">
+										<pre><code class="language-javascript" id="code-file7"></code></pre>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+
+						<p class="justify-text"><strong>Orchestration:</strong> An orchestration program controls the
+							workflow by dictating the actions of the adaptors in each iteration. This program ensures
+							that the system operates in a coordinated manner, overseeing the sequence of data
+							processing, analysis, prediction, and evaluation.</p>
+
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="section-title">Orchestration files:</p>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file8"
+										aria-expanded="false" aria-controls="file8"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/orchestration/orchestration-program.js">
+										<i class="fa fa-chevron-right"></i> orchestration-program.js
+									</button>
+									<div id="file8" class="collapse">
+										<pre><code class="language-javascript" id="code-file8"></code></pre>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+
+						<p class="justify-text"><strong>Adaptor Functions:</strong> Each GPT model is managed by a
+							corresponding adaptor:
+						<ul class="justify-text">
+
+							<li><strong>GPTA Adaptor:</strong> Responsible for sentiment analysis of the news data.</li>
+
+							<div class="row">
+								<div class="col-xs-12">
+
+									<div class="file-panel">
+										<button class="btn btn-link" data-toggle="collapse" data-target="#file9"
+											aria-expanded="false" aria-controls="file9"
+											data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/adaptors/gpta-adaptor.js">
+											<i class="fa fa-chevron-right"></i> gpta-adaptor.js
+										</button>
+										<div id="file9" class="collapse">
+											<pre><code class="language-javascript" id="code-file9"></code></pre>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<li><strong>GPTB Adaptor:</strong> Compares sentiment data with stock prices and makes
+								predictions for the next day's prices.</li>
+
+							<div class="row">
+								<div class="col-xs-12">
+
+									<div class="file-panel">
+										<button class="btn btn-link" data-toggle="collapse" data-target="#file10"
+											aria-expanded="false" aria-controls="file10"
+											data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/adaptors/gptb-adaptor.js">
+											<i class="fa fa-chevron-right"></i> gptb-adaptor.js
+										</button>
+										<div id="file10" class="collapse">
+											<pre><code class="language-javascript" id="code-file10"></code></pre>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<li><strong>GPTC Adaptor:</strong> Focuses on analysing historical stock prices and makes
+								independent predictions for the next day's prices.</li>
+
+							<div class="row">
+								<div class="col-xs-12">
+
+									<div class="file-panel">
+										<button class="btn btn-link" data-toggle="collapse" data-target="#file11"
+											aria-expanded="false" aria-controls="file11"
+											data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/adaptors/gptc-adaptor.js">
+											<i class="fa fa-chevron-right"></i> gptc-adaptor.js
+										</button>
+										<div id="file11" class="collapse">
+											<pre><code class="language-javascript" id="code-file11"></code></pre>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<li><strong>GPTD Adaptor:</strong> Receives predictions from GPTB and GPTC, evaluates and
+								compares them, and then makes the final prediction.</li>
+
+							<div class="row">
+								<div class="col-xs-12">
+
+									<div class="file-panel">
+										<button class="btn btn-link" data-toggle="collapse" data-target="#file12"
+											aria-expanded="false" aria-controls="file12"
+											data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/adaptors/gptd-adaptor.js">
+											<i class="fa fa-chevron-right"></i> gptd-adaptor.js
+										</button>
+										<div id="file12" class="collapse">
+											<pre><code class="language-javascript" id="code-file12"></code></pre>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</ul>
+						</p>
+
+						<p class="justify-text"><strong>Data Flow and Logging:</strong> The adaptors fetch and process
+							data as directed by the orchestration program. They communicate with their respective GPT
+							models via API calls, receive the results, format the outputs, and log them accordingly.</p>
+
+						<p class="justify-text"><strong>Evaluation and Fine-Tuning:</strong> After each prediction
+							cycle, the orchestration program initiates an evaluation cycle. During this phase, the
+							models review their predictions by comparing them with the actual stock prices for the next
+							day. This feedback is analysed, formatted, and logged. The system then enters a fine-tuning
+							cycle, where the models learn from any discrepancies in their predictions, improving their
+							accuracy over time.</p>
+
+						<div class="row">
+							<div class="col-xs-12">
+
+								<p class="section-title">Evaluation files:</p>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file13"
+										aria-expanded="false" aria-controls="file13"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/eval_adaptors/eval-gpta.js">
+										<i class="fa fa-chevron-right"></i> eval-gpta.js
+									</button>
+									<div id="file13" class="collapse">
+										<pre><code class="language-javascript" id="code-file13"></code></pre>
+									</div>
+								</div>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file14"
+										aria-expanded="false" aria-controls="file14"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/eval_adaptors/eval-gptb.js">
+										<i class="fa fa-chevron-right"></i> eval-gptb.js
+									</button>
+									<div id="file14" class="collapse">
+										<pre><code class="language-javascript" id="code-file14"></code></pre>
+									</div>
+								</div>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file15"
+										aria-expanded="false" aria-controls="file15"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/eval_adaptors/eval-gptc.js">
+										<i class="fa fa-chevron-right"></i> eval-gptc.js
+									</button>
+									<div id="file15" class="collapse">
+										<pre><code class="language-javascript" id="code-file15"></code></pre>
+									</div>
+								</div>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file16"
+										aria-expanded="false" aria-controls="file16"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/eval_adaptors/eval-gptd.js">
+										<i class="fa fa-chevron-right"></i> eval-gptd.js
+									</button>
+									<div id="file16" class="collapse">
+										<pre><code class="language-javascript" id="code-file16"></code></pre>
+									</div>
+								</div>
+
+								<p class="section-title">Fine-tuning file:</p>
+
+								<div class="file-panel">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#file17"
+										aria-expanded="false" aria-controls="file17"
+										data-file-url="https://raw.githubusercontent.com/gabrielipcarvalho/dissertation/main/src/eval_adaptors/eval-gptd.js">
+										<i class="fa fa-chevron-right"></i> in development
+									</button>
+									<div id="file17" class="collapse">
+										<pre><code class="language-javascript" id="code-file17"></code></pre>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<p class="justify-text"><strong>Iterative Process:</strong> The system operates in an iterative
+							manner, continuously refining the models through ongoing cycles of data collection,
+							analysis, prediction, evaluation, and fine-tuning. This iterative approach ensures that the
+							models adapt to changing market conditions and improve their predictive accuracy with each
+							cycle.</p>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer-container text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/"
+							title="Create website with free html template">Mashup Template</a>/<a
+							href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Load JavaScript dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<!-- Load Prism.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+
+	<!-- Load the specific Python language component for Prism.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-python.min.js"></script>
+
+	<!-- Custom JS for fetching files and applying syntax highlighting -->
+	<script src="../static/js/fetchFiles.js"></script>
+
+</body>
+
+</html>
